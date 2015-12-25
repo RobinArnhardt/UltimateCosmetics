@@ -1,0 +1,17 @@
+[07:41:10 ERROR]: Error occurred while enabling UltimateCosmetics v3.8.3 (Is it up to date?)
+java.lang.NullPointerException
+        at com.j0ach1mmall3.ultimatecosmetics.internal.config.Particles.getParticleByIdentifier(Particles.java:90) ~[?:?]
+        at com.j0ach1mmall3.ultimatecosmetics.internal.config.Particles.getParticlesInternal(Particles.java:82) ~[?:?]
+        at com.j0ach1mmall3.ultimatecosmetics.internal.config.Particles.<init>(Particles.java:65) ~[?:?]
+        at com.j0ach1mmall3.ultimatecosmetics.Main.onEnable(Main.java:180) ~[?:?]
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Spigot-5f38d38-12698ea]
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot.jar:git-Spigot-5f38d38-12698ea]
+        at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
